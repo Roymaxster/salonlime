@@ -27,12 +27,22 @@ response.google_analytics_id = None
 #########################################################################
 
 response.menu = [
-    (SPAN('Home', _class='highlighted'), False, URL('default', 'index'), []),
-    (T('First'), False, URL('default', 'first'), [
+    #(SPAN('Home', _class='highlighted'), False, URL('default', 'index'), []),
+    (T('Парикмахерский зал'), False, URL('default', 'first'), [
+        (T('Женский зал'), False, URL ('default', 'first'), []),
+        (T('Мужской зал'), False, URL ('default', 'first'), []),
         (T('First_test'), False, URL('default', 'first'), [])
         ]),
-        (T('Second'), False, URL('default', 'second'), []),
-        (T('WorkFlow'), False, URL('default', 'workflow'), [])
+        (T('Маникюрный зал'), False, URL('default', 'second'), [
+        (T('Маникюр'), False, URL ('default', 'first'), []),
+        (T('Педикюр'), False, URL ('default', 'first'), []),
+        ]),
+        (T('Продукция'), False, URL('default', 'workflow'), []),
+        (T('Акции'), False, URL('default', 'workflow'), []),
+        (T('О нас'), False, URL(''), [
+        (T('Галлерея'), False, URL('default', 'workflow'), []),
+        (T('Контакты'), False, URL('default', 'workflow'), []),
+        ]),
 ]
 
 
