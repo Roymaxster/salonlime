@@ -93,7 +93,7 @@ div.controls select +.error_wrapper {margin-left:5px;}
 .navbar {margin-bottom:0}
 .navbar-inverse .brand{color:#c6cecc;}
 .navbar-inverse .brand b{display:inline-block;margin-top:-1px;}
-.navbar-inverse .brand b>span{font-size:22px;color:#58FC5E}
+.navbar-inverse .brand b>span{font-size:22px;color:#9EFD38}
 .navbar-inverse .brand:hover b>span{color:white}
 /* beautify web2py link in navbar */
 span.highlighted{color:#d8d800;}
